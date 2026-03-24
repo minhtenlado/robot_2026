@@ -26,16 +26,3 @@ Dự án này được quản lý và xây dựng bằng **PlatformIO**.
    ```bash
    git clone https://github.com/minhtenlado/robot_2026.git
 
-Mở thư mục dự án bằng VS Code có cài sẵn extension PlatformIO IDE.
-
-Nạp thư viện: PlatformIO sẽ tự động tải các thư viện cần thiết (như Adafruit_VL53L0X) dựa trên file platformio.ini.
-
-Kết nối Pico W qua cổng USB và nhấn nút Upload (mũi tên chỉ sang phải ở thanh trạng thái dưới cùng).
-
-⚙️ Cấu hình tinh chỉnh (Calibration)
-Trước khi chạy trên sa bàn thực tế, vui lòng tinh chỉnh các hằng số sau trong code (dựa trên ma sát và pin thực tế):
-
-TICKS_PER_90_DEG: Số xung Encoder để xe xoay tại chỗ đúng 90 độ.
-
-TICKS_PER_CELL: Số xung Encoder để xe đi lọt 1 ô mê cung (ví dụ 180mm).
-
