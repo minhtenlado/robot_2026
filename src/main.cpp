@@ -36,7 +36,7 @@
 // ================= 2. THÔNG SỐ CẦN TINH CHỈNH =================
 #define TICKS_PER_90_DEG 215    // Số xung để xe xoay 90 độ
 #define TICKS_ALIGN_CENTER 150  // Số xung tiến vào giữa ngã 3
-#define TICKS_PER_CELL 600      // Số xung đi thẳng 1 ô mê cung
+#define TICKS_PER_CELL 1103      // Số xung đi thẳng 1 ô mê cung
 
 // NGƯỠNG NHẬN DIỆN THOÁT MÊ CUNG (mm)
 // Nếu khoảng cách lớn hơn mức này -> Không có tường
