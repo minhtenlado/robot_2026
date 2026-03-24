@@ -24,4 +24,4 @@ Dự án này được quản lý và xây dựng bằng **PlatformIO**.
 
 1. Clone repository về máy:
    ```bash
-   git clone [https://github.com/minhtenlado/robot_2026.git](https://github.com/minhtenlado/robot_2026.git)
+   git clone https://github.com/minhtenlado/robot_2026.git
