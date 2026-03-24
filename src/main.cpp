@@ -24,6 +24,12 @@
 #define MOT_R_IN2 14
 #define MOT_R_PWM 15
 
+// Cảm biến dò Line (Digital) - Dành cho cấu hình Sumo
+#define LINE_FL 16 // Trước Trái
+#define LINE_FR 17 // Trước Phải
+#define LINE_BL 18 // Sau Trái
+#define LINE_BR 19 // Sau Phải
+
 // Nút nhấn chuyển trạng thái
 #define BUTTON_PIN 20 
 
